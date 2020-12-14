@@ -8,7 +8,8 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-      <Navbar />
+      <Hero />
+      {/* <Navbar /> */}
       {/* <Hero /> */}
     </Router>
   );

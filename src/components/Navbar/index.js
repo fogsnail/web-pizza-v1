@@ -1,12 +1,12 @@
 import React from "react";
 import { Nav, NavLink, NavIcon, Bars } from "./NavbarElements";
 
-function index() {
+function Navbar({ toggle }) {
   return (
     <>
       <Nav>
         <NavLink to="/">Pizza</NavLink>
-        <NavIcon>
+        <NavIcon onClick={toggle}>
           <p>Menu</p>
           <Bars />
         </NavIcon>
@@ -15,4 +15,4 @@ function index() {
   );
 }
 
-export default index;
+export default Navbar;
