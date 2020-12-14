@@ -5,7 +5,7 @@ function index() {
   return (
     <>
       <Nav>
-        <NavLink to="/">Navbar</NavLink>
+        <NavLink to="/">Pizza</NavLink>
         <NavIcon>
           <p>Menu</p>
           <Bars />
