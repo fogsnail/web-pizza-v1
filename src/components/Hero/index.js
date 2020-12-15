@@ -14,10 +14,10 @@ function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
-    console.log("davs");
+    // console.log("davs");
     setIsOpen(!isOpen);
   };
-  console.log(isOpen);
+  // console.log(isOpen);
   return (
     <>
       <HeroContainer>

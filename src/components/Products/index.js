@@ -13,7 +13,7 @@ import {
 } from "./ProductsElements";
 
 function Products({ heading, data }) {
-  console.log(data);
+  // console.log(data);
   return (
     <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
